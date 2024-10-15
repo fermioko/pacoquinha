@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
@@ -14,6 +14,9 @@
 <a href="http://localhost:8080/receita">Receita</a>
 <a href="http://localhost:8080/blog">Blog</a>
 <a href="http://localhost:8080/loja">loja</a>
+<br>
+
+<h1>Olá, <label th:text="${nome}"></label></h1>
 
 </body>
 </html>
